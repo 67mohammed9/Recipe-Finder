@@ -1,0 +1,36 @@
+.App{
+  min-height: 100vh;
+  background-image: linear-gradient(to top, #fddb92 0%, #d1fdff 100%);
+}
+/* WHY DOESNT THIS WORK*/
+ .searchForm{
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+} 
+
+.search-bar{
+  width: 50%;
+  border: none;
+  padding: 10px;
+  align-items: flex-end;
+  
+}
+
+.search-button{
+  background:darkgoldenrod;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+}
+
+.recipies{
+  display:flex;
+  justify-content: space-around;
+  flex-wrap:wrap;
+}
+
+.title{
+  text-align: center;
+}
